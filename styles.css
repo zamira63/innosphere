@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a{
+
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Open sans';
+}
+.main-header{
+	background: url(images/header_background.png);
+	background-repeat: no-repeat;
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+.header-contacts{
+	min-height: 125px;
+	background-color: #ffffff;
+	border: 1px dashed #b54767;
+}
+.item{
+	display: inline-block;
+	color: #afb2b2;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 10px;
+	float: right;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+.item:first-child{
+	margin-right: 35px;
+}
+.icon{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(images/icones_sprite.png) no-repeat;
+}
+.icon-location{
+	background-position:  -8px -5px;
+}
+.item span{
+	color: #2f343a;
+	font-size: 13px;
+}
+nav{
+	color: #ffffff;
+	min-height: 55px;
+	display: inline-block;
+	background-color: #232020;
+}
+.main-menu{
+	width: 880px;
+	height:55px;
+	float: left;
+}
+.main-menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}
+.main-menu a{
+	font-size: 13px;
+	font-weight: 600;
+}
+.header-social-icons{
+	float: right;
+	width: 100px;
+	margin-left: 20px;
+}
+.header-social-icons li{
+	display: inline-block;
+	list-style: none;
+	padding: 15px 0px;
+}
+.social{
+	width: 30px;
+	height: 30px;
+	background: url(images/icones_sprite.png) no-repeat;
+}
+.social-fb{
+	background-position: 10px -237px;
+}
+.social-in{
+	background-position: -20px -237px;
+}
+.social-be{
+	background-position: -55px -237px;
+}
+.header-text-block{
+	width: 440px;
+	height: 150px;
+	padding: 20px;
+	background-color: rgba(218, 220, 223, 0.7);
+	margin-top: 170px;
+}
+.header-text-block h1{
+	font-family: 'Open sans';
+	font-size: 22px;
+	color: #494d51;
+	margin-bottom: 20px;
+}
+.header-text-block p{
+	font-family: 'Open sans';
+	font-size: 15px;
+	color: #868584;
+}
+.btn-know-more{
+	padding: 10px 20px;
+	background-color: #f17398;
+	color: #ffffff;
+	border-bottom: 3px solid #db577e;
+	font-family: 'Open sans';
+	font-size: 12px;
+}
